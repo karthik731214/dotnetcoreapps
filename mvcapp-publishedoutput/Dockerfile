@@ -3,5 +3,4 @@
 FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
 WORKDIR /app
 COPY . .
-EXPOSE 5000
 ENTRYPOINT ["dotnet", "MVCCoreApp.dll"]
